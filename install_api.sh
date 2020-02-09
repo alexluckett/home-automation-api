@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo "Updating pip"
 apt update
 apt install python-pip -y
