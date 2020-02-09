@@ -9,6 +9,4 @@ pip install Flask
 pip install Flask-RESTful
 
 echo -e "\n *** Installing API dependencies"
-pip install pywebostv
-pip install RPi.GPIO
-
+pip install -r ~/home_api/requirements.txt
