@@ -1,5 +1,7 @@
 #!/bin/sh
 
+chmod -R u=rwx ~/home_api
+
 echo -e "\n *** Updating pip"
 apt update
 apt install python-pip -y
