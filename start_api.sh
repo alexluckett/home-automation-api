@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/bedroom_api/api
+cd ~/home_api/api
 
-export FLASK_APP=bedroom_api
+export FLASK_APP=home_api
 flask run
