@@ -21,7 +21,7 @@ class TvState(Resource):
 app = Flask(__name__)
 api = Api(app)
 
-api.add_resource(EnergenieLight, '/bedroom/light/<int:light_number>/state')
+api.add_resource(EnergenieLight, '/bedroom/light/<int:light_number>')
 api.add_resource(TvState, '/bedroom/tv/<string:ip_address>/state')
 
 
